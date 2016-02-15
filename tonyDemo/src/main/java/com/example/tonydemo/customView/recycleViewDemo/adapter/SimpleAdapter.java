@@ -47,9 +47,10 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
     private List<String> mData;
 
     public void add(String s,int position) {
-//        position = position == LAST_POSITION ? getItemCount()  : position;
-        mData.add(2,s);
-        notifyItemInserted(2);
+        position = position == LAST_POSITION ? getItemCount()  : position;
+        mData.add(position,s);
+        notifyItemInserted(position);
+        //notifyDataSetChanged();  //解决中间插入数据时位置的不同步
     }
 
     public void remove(int position){
@@ -60,6 +61,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
             mData.remove(position);
             notifyItemRemoved(position);
         }
+        //notifyDataSetChanged();   //解决中间插入数据时位置的不同步
     }
 
 
@@ -87,14 +89,13 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
     }
 
     @Override
-    public void onBindViewHolder(SimpleViewHolder holder, int position) {
-        final int p=position;
+    public void onBindViewHolder(SimpleViewHolder holder,final int position) {
         LogUtils.i(TAG,"onBindViewHolder");
         holder.title.setText(mData.get(position));
         holder.title.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, "Position =" + p, Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "Position =" + position, Toast.LENGTH_SHORT).show();
             }
         });
 
