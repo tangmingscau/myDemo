@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/tony/code/myDemo/volleyDemo/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/tony/code/myDemo/volleyDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="activity_gson_request_btn">Execute gson request</string>
+    <string name="activity_json_request_btn">Execute json request</string>
+    <string name="activity_params_request_btn">POST params</string>
+    <string name="activity_simple_request_btn">Execute simple request</string>
+    <string name="app_name">AndroidVolley</string>
+    <string name="image_loading_btn_request">Image loading</string>
+    <!-- From: file:/home/tony/code/myDemo/volleyDemo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
