@@ -25,6 +25,7 @@ import com.amap.map3d.demo.R;
  */
 public class LocationModeSourceActivity extends Activity implements LocationSource,
 		AMapLocationListener,OnCheckedChangeListener {
+	private static String TAG=LocationModeSourceActivity.class.getSimpleName();
 	private AMap aMap;
 	private MapView mapView;
 	private OnLocationChangedListener mListener;
@@ -37,6 +38,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.i(TAG,"oncreate");
 		requestWindowFeature(Window.FEATURE_NO_TITLE);// 不显示程序的标题栏
 		setContentView(R.layout.locationmodesource_activity);
 		mapView = (MapView) findViewById(R.id.map);
@@ -48,6 +50,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 * 初始化
 	 */
 	private void init() {
+		Log.i(TAG,"init");
 		if (aMap == null) {
 			aMap = mapView.getMap();
 			setUpMap();
@@ -62,6 +65,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 * 设置一些amap的属性
 	 */
 	private void setUpMap() {
+		Log.i(TAG,"setUpMap");
 		aMap.setLocationSource(this);// 设置定位监听
 		aMap.getUiSettings().setMyLocationButtonEnabled(true);// 设置默认定位按钮是否显示
 		aMap.setMyLocationEnabled(true);// 设置为true表示显示定位层并可触发定位，false表示隐藏定位层并不可触发定位，默认是false
@@ -71,6 +75,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 
 	@Override
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
+		Log.i(TAG,"onCheckChanged");
 		switch (checkedId) {
 		case R.id.gps_locate_button:
 			// 设置定位的类型为定位模式
@@ -93,6 +98,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	protected void onResume() {
+		Log.i(TAG,"onResume");
 		super.onResume();
 		mapView.onResume();
 	}
@@ -102,6 +108,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	protected void onPause() {
+		Log.i(TAG,"onPause");
 		super.onPause();
 		mapView.onPause();
 		deactivate();
@@ -112,6 +119,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
+		Log.i(TAG,"onSaveInstanceState");
 		super.onSaveInstanceState(outState);
 		mapView.onSaveInstanceState(outState);
 	}
@@ -121,6 +129,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	protected void onDestroy() {
+		Log.i(TAG,"onDestroy");
 		super.onDestroy();
 		mapView.onDestroy();
 		if(null != mlocationClient){
@@ -133,6 +142,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	public void onLocationChanged(AMapLocation amapLocation) {
+		Log.i(TAG,"onLocationChanged");
 		if (mListener != null && amapLocation != null) {
 			if (amapLocation != null
 					&& amapLocation.getErrorCode() == 0) {
@@ -152,7 +162,9 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	public void activate(OnLocationChangedListener listener) {
+		Log.i(TAG,"activate");
 		mListener = listener;
+		Log.i("Location类","定位被激活");
 		if (mlocationClient == null) {
 			mlocationClient = new AMapLocationClient(this);
 			mLocationOption = new AMapLocationClientOption();
@@ -175,6 +187,7 @@ public class LocationModeSourceActivity extends Activity implements LocationSour
 	 */
 	@Override
 	public void deactivate() {
+		Log.i(TAG,"deactivate");
 		mListener = null;
 		if (mlocationClient != null) {
 			mlocationClient.stopLocation();

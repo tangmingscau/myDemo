@@ -11,14 +11,18 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.tonydemo.customView.recycleViewDemo.RecycleViewMainActivity;
 import com.example.tonydemo.instanceofTest.animal;
 import com.example.tonydemo.instanceofTest.dog;
+import com.example.tonydemo.map.indoor.IndoorMainActivity;
+import com.example.tonydemo.map.indoor.OnlineActivity;
 
 public class MainActivity extends Activity {
 private static String TAG=MainActivity.class.getSimpleName();
     TextView recycleViewAC=null;
+    TextView indoorMap=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +33,9 @@ private static String TAG=MainActivity.class.getSimpleName();
     private void init() {
         recycleViewAC= (TextView) findViewById(R.id.recycleViewAC);
         recycleViewAC.setOnClickListener(myclick);
+
+        indoorMap= (TextView) findViewById(R.id.indoorMap);
+        indoorMap.setOnClickListener(myclick);
     }
     View.OnClickListener myclick=new View.OnClickListener() {
         @Override
@@ -38,6 +45,11 @@ private static String TAG=MainActivity.class.getSimpleName();
                 case R.id.recycleViewAC:
                     intent=new Intent(MainActivity.this, RecycleViewMainActivity.class);
                     startActivity(intent);
+                    break;
+                case R.id.indoorMap:
+                    intent =new Intent(MainActivity.this, IndoorMainActivity.class);
+                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(),"室内地图有问题,被杀掉了",Toast.LENGTH_SHORT).show();
                     break;
             }
         }
