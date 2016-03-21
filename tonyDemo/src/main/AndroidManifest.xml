@@ -40,12 +40,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:supportsRtl="true">
         <meta-data android:name="indoormap3d_key" android:value="65f057b9d5a807646c906738a6a0b727"/>
 
         <activity android:name=".map.indoor.IndoorMainActivity"
-            android:theme="@style/DemoTheme.AppBarOverlay"
+                  android:theme="@style/DemoTheme.AppBarOverlay"
         >
             <action android:name="android.intent.action.VIEW"></action>
             <category android:name="android.intent.category.DEFAULT"></category>
@@ -55,7 +54,7 @@
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
 
 
@@ -109,7 +108,25 @@
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-
+        <activity android:name=".customView.floatButton.FloatWindowTest"
+                  android:theme="@style/DemoTheme.AppBarOverlay"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".customView.floatButton.FloatActivity"
+                  android:theme="@style/DemoTheme.AppBarOverlay"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        
+        
+        <service android:name=".customView.floatButton.FloatService"></service>
     </application>
 
 </manifest>
