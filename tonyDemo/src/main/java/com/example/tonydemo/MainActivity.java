@@ -10,6 +10,7 @@ import android.widget.Toast;
 import com.example.tonydemo.customView.floatButton.FloatActivity;
 import com.example.tonydemo.customView.floatButton.FloatWindowTest;
 import com.example.tonydemo.customView.recycleViewDemo.RecycleViewMainActivity;
+import com.example.tonydemo.customView.switchViewDemo.SwitchStatusActivity;
 import com.example.tonydemo.map.indoor.IndoorMainActivity;
 
 public class MainActivity extends Activity {
@@ -36,6 +37,8 @@ private static String TAG=MainActivity.class.getSimpleName();
 
         TextView appFloat= (TextView) findViewById(R.id.appFloatWindow);
         appFloat.setOnClickListener(myclick);
+        TextView switchState= (TextView) findViewById(R.id.switchState);
+        switchState.setOnClickListener(myclick);
     }
     View.OnClickListener myclick=new View.OnClickListener() {
         @Override
@@ -57,6 +60,10 @@ private static String TAG=MainActivity.class.getSimpleName();
                     break;
                 case R.id.appFloatWindow:
                     intent =new Intent(MainActivity.this, FloatActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.switchState:
+                    intent =new Intent(MainActivity.this, SwitchStatusActivity.class);
                     startActivity(intent);
                     break;
             }
