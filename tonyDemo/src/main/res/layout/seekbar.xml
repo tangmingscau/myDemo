@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:mySeekbar="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+>
+
+    <SeekBar android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:maxHeight="4dp"
+             android:minHeight="4dp"
+             android:progressDrawable="@drawable/sound_seekbar_track"
+             android:thumb="@drawable/sound_seekbar_thumb"
+    />
+    <SeekBar
+        android:layout_width="494dp"
+        android:layout_height="140dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="0dp"
+        android:minWidth="0dp"
+        android:padding="0dp"
+        android:progressDrawable="@drawable/volume_seekbar_track"
+        android:thumb="@null"
+    />
+    <FrameLayout android:layout_width="626dp"
+                 android:layout_height="90dp">
+        <SeekBar
+            android:id="@+id/verifySeekbar"
+            android:layout_width="626dp"
+            android:layout_height="90dp"
+            android:max="100"
+            android:progressDrawable="@drawable/charge_seekbar_track_normal_low"
+        />
+        <ImageView
+            android:id="@+id/dash"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:visibility="invisible"
+        />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/chargeAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="现在电量加1"/>
+        <Button
+            android:id="@+id/startCharge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开始充电"/>
+        <Button
+            android:id="@+id/endCharge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="停止充电"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="20dp"
+        android:scaleX="0.5"
+        android:src="@drawable/dash"/>
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="20dp"
+        android:scaleX="0.2"
+        android:src="@drawable/dash"/>
+    <LinearLayout
+        android:id="@+id/activity_myhezu_wantchuzu"
+        android:layout_width="500dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dash"
+        android:orientation="horizontal" >
+        </LinearLayout>
+
+    </LinearLayout>

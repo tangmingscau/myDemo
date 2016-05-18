@@ -13,5 +13,5 @@
     <color name="md_blue_100">#BBDEFB</color>
     <color name="md_blue_400">#738ffe</color>
     <color name="md_blue_500">#5677fc</color>
-
+    <color name="myBlackText">#343434</color>
 </resources>

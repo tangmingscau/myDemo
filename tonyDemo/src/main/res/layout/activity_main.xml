@@ -44,4 +44,32 @@
         android:gravity="center"
         android:text="状态切换"
     />
+    <TextView
+        android:id="@+id/mySeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="横向滑动条"
+    />
+    <TextView
+        android:id="@+id/myWheelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="wheelView"
+    />
+    <TextView
+        android:id="@+id/mydialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="dialog"
+    />
+    <TextView
+        android:id="@+id/keyboardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="键盘界面"
+    />
 </LinearLayout>
