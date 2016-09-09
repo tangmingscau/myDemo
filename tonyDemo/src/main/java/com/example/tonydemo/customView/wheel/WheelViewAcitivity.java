@@ -3,7 +3,7 @@ package com.example.tonydemo.customView.wheel;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 import com.example.tonydemo.R;
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class WheelViewAcitivity extends Activity {
 
             @Override
             public void selecting(int id, String text) {
-
+                LogUtils.i(TAG, "selecting=%s", text);
             }
         });
     }

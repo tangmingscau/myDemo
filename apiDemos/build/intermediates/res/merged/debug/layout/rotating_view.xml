@@ -158,4 +158,3 @@
         android:id="@+id/rotatingButton"
         />
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/rotating_view.xml -->

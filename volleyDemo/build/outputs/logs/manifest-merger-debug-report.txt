@@ -7,6 +7,8 @@ ADDED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml:2:1-50
 		INJECTED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml
 	android:versionName
 		ADDED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml
+		INJECTED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml
 	android:versionCode
 		ADDED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /home/tony/code/myDemo/volleyDemo/src/main/AndroidManifest.xml

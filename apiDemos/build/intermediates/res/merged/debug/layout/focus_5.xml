@@ -58,4 +58,3 @@
         android:text="@string/focus_5_button5"
         android:nextFocusForward="@+id/button1"/>
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/focus_5.xml -->

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/drawable-nodpi-v4/logonodpi160.png",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/drawable-nodpi/logonodpi160.png"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/drawable-nodpi-v4/logonodpi120.png",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/drawable-nodpi/logonodpi120.png"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/drawable-nodpi-v4/frantic.jpg",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/drawable-nodpi/frantic.jpg"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/drawable-nodpi-v4/logonodpi240.png",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/drawable-nodpi/logonodpi240.png"
+    }
+]

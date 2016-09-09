@@ -21,4 +21,3 @@
     android:id="@+id/surface_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/presentation_with_media_router_content.xml -->

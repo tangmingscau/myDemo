@@ -39,4 +39,3 @@
         android:title="@string/header_encryption" />
 
 </preference-headers>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/xml/device_admin_headers.xml -->

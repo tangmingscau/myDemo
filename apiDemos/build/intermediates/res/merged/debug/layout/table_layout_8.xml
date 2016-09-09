@@ -85,4 +85,3 @@
         android:layout_height="wrap_content"
         android:text="@string/table_layout_8_toggle_stretch" />
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/table_layout_8.xml -->

@@ -20,4 +20,3 @@
           android:showAsAction="always"
           android:actionViewClass="android.widget.SearchView" />
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/searchview_in_menu.xml -->

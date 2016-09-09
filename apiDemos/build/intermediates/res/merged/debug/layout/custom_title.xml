@@ -55,4 +55,3 @@
             android:text="@string/custom_title_right_button"/>
     </LinearLayout>
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/custom_title.xml -->

@@ -56,4 +56,4 @@
                 android:layout_height="wrap_content"
                 android:text="@string/toggle_system_ui" />
     </LinearLayout>
-</ScrollView><!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/action_bar_display_options.xml -->
+</ScrollView>

@@ -37,4 +37,3 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/secure_dialog_show_button"/>
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/secure_dialog_activity.xml -->

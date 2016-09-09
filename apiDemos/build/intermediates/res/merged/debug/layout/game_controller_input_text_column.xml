@@ -32,4 +32,3 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/game_controller_input_text_column.xml -->

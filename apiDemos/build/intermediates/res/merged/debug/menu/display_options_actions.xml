@@ -17,4 +17,3 @@
     <item android:id="@+id/simple_item"
           android:title="@string/display_options_menu_item" />
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/display_options_actions.xml -->

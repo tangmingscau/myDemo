@@ -30,4 +30,3 @@
         android:repeatCount="1"
         android:repeatMode="reverse"/>
 </set>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/animator_set.xml -->

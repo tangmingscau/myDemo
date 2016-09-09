@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,61 +14,88 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="recycleViewDemo"/>
+        android:text="recycleViewDemo" />
+
     <TextView
         android:id="@+id/indoorMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="室内地位"
-    />
+        android:text="室内地位" />
+
     <TextView
         android:id="@+id/floatWindow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="activity浮动按钮"
-    />
+        android:text="activity浮动按钮" />
+
     <TextView
         android:id="@+id/appFloatWindow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="APP浮动按钮"
-    />
+        android:text="APP浮动按钮" />
+
     <TextView
         android:id="@+id/switchState"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="状态切换"
-    />
+        android:text="状态切换" />
+
     <TextView
         android:id="@+id/mySeekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="横向滑动条"
-    />
+        android:text="横向滑动条" />
+
     <TextView
         android:id="@+id/myWheelView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="wheelView"
-    />
+        android:text="wheelView" />
+
     <TextView
         android:id="@+id/mydialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="dialog"
-    />
+        android:text="dialog" />
+
     <TextView
         android:id="@+id/keyboardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="键盘界面"
-    />
+        android:text="键盘界面" />
+
+    <TextView
+        android:id="@+id/airView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="访问空气质量" />
+
+    <TextView
+        android:id="@+id/chargeSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="天气seekbar" />
+
+    <TextView
+        android:id="@+id/myPickView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="pickview" />
+    <TextView
+        android:id="@+id/myFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="人脸识别" />
 </LinearLayout>

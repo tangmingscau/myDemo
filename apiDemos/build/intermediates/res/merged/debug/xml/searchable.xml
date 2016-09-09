@@ -28,4 +28,3 @@
     android:searchSuggestAuthority="com.example.android.apis.SuggestionProvider"
     android:searchSuggestSelection=" ? "
 />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/xml/searchable.xml -->

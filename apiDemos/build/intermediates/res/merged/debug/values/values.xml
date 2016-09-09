@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/arrays.xml -->
-    <eat-comment/>
     <string-array name="cheese_responses">
         <item>I\'m afraid we\'re fresh out.</item>
         <item>I\'m afraid we never have that at the end of the week, sir.  We get it fresh on Monday.</item>
@@ -316,8 +314,6 @@
         <item>Every Saturday</item>
         <item>Every Sunday</item>
     </string-array>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/bools.xml -->
-    <eat-comment/>
     <bool name="atLeastHoneycomb">false</bool>
     <bool name="atLeastHoneycombMR2">false</bool>
     <bool name="atLeastIceCreamSandwich">false</bool>
@@ -325,11 +321,7 @@
     <bool name="atLeastJellyBeanMR1">false</bool>
     <bool name="atLeastJellyBeanMR2">false</bool>
     <bool name="atLeastKitKat">false</bool>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/styles.xml -->
-    <eat-comment/>
     <color name="custom_theme_color">#b0b0ff</color>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/colors.xml -->
-    <eat-comment/>
     <color name="solid_blue">#0000ff</color>
     <color name="solid_green">#f0f0</color>
     <color name="solid_red">#f00</color>
@@ -347,14 +339,8 @@
     <drawable name="translucent_background">#e0000000</drawable>
     <drawable name="transparent_background">#00000000</drawable>
     <drawable name="yellow">#77ffff00</drawable>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/ids.xml -->
-    <eat-comment/>
     <item name="snack" type="id"/>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/integers.xml -->
-    <eat-comment/>
     <integer name="system_ui_modes_cols">2</integer>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/strings.xml -->
-    <eat-comment/>
     <string name="accessibility_custom_off">Off</string>
     <string name="accessibility_custom_on">On</string>
     <string name="accessibility_custom_view">Accessibility/Custom View</string>
@@ -1561,8 +1547,6 @@
         including external storage! Are you really absolutely sure?</string>
     <string name="wipe_warning_second_no">Oops, run away!</string>
     <string name="wipe_warning_second_ok">BOOM!</string>
-    <!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/values/styles.xml -->
-    <eat-comment/>
     <style name="BadTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
     </style>
     <style name="CustomTheme" parent="android:Theme.Light">

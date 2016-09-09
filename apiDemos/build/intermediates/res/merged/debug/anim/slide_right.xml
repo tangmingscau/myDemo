@@ -18,4 +18,3 @@
     <translate android:fromXDelta="-100%p" android:toXDelta="0"
             android:duration="@android:integer/config_shortAnimTime" />
 </set>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/slide_right.xml -->

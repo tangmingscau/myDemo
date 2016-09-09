@@ -21,4 +21,3 @@
             android:right="7dp" android:bottom="7dp" />
     <corners android:radius="8dp" />
 </shape>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/drawable/shape_5.xml -->

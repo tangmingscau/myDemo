@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 import com.example.tonydemo.R;
 
 /**

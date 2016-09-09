@@ -18,4 +18,3 @@
     <item android:state_pressed="true" android:drawable="@drawable/black_opaque_box" />
     <item android:drawable="@drawable/black_box" />
 </selector>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/drawable/gallery_background_1.xml -->

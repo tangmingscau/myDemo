@@ -15,10 +15,6 @@
  */
 package com.example.android.apis.app;
 
-import java.util.ArrayList;
-
-import com.example.android.apis.R;
-
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -29,6 +25,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TabHost;
 
+import com.example.android.apis.R;
+
+import java.util.ArrayList;
+
 /**
  * Sample fragment that contains tabs of other fragments.
  */
@@ -38,8 +38,8 @@ public class FragmentTabsFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mTabManager = new TabManager(getActivity(), getChildFragmentManager(),
-                R.id.realtabcontent);
+//        mTabManager = new TabManager(getActivity(), getChildFragmentManager(),
+//                R.id.realtabcontent);
     }
 
     @Override

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/transition/changebounds_fadein_together.xml",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/transition/changebounds_fadein_together.xml"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/transition/changebounds_fadeout_sequential.xml",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/transition/changebounds_fadeout_sequential.xml"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/transition/changebounds.xml",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/transition/changebounds.xml"
+    },
+    {
+        "merged": "/home/tony/code/myDemo/apiDemos/build/intermediates/res/merged/debug/transition/transitions_mgr.xml",
+        "source": "/home/tony/code/myDemo/apiDemos/src/main/res/transition/transitions_mgr.xml"
+    }
+]

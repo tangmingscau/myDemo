@@ -20,4 +20,3 @@
           android:icon="@android:drawable/ic_menu_share"
           android:showAsAction="always" />
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/list_select_menu.xml -->

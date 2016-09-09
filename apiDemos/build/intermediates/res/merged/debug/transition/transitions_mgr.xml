@@ -31,4 +31,3 @@
                 android:transition="@transition/changebounds_fadeout_sequential"/>
 </transitionManager>
 
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/transition/transitions_mgr.xml -->

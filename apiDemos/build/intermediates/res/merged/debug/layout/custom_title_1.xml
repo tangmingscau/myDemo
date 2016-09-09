@@ -31,4 +31,3 @@
         android:layout_alignParentRight="true"
         android:text="@string/custom_title_right" />
 </RelativeLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/custom_title_1.xml -->

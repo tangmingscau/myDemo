@@ -21,4 +21,3 @@
     android:valueType="floatType"
     android:repeatCount="1"
     android:repeatMode="reverse"/>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/animator.xml -->

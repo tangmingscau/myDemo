@@ -1,6 +1,7 @@
 package com.example.tonydemo.customView.keyboard;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.tonydemo.util.LogUtils;
 import com.example.tonydemo.R;
 
 
@@ -177,12 +179,19 @@ public class KeyBoardView extends LinearLayout implements View.OnClickListener {
         text9.setOnClickListener(this);
         back.setTag(BACK);
         back.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         String tag = (String) v.getTag();
         listener.clickKey(tag);
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        LogUtils.i(KeyBoardView.class.getSimpleName(), "x={%f},y={%f}", getX(), getY());
     }
 
     public void setKeyboardClickListener(KeyboardClick keyboardClick) {

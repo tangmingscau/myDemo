@@ -46,4 +46,3 @@
         android:text="@string/pick_address">
     </Button>
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/pick_contact.xml -->

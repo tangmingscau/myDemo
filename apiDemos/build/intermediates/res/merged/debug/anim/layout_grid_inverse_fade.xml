@@ -19,4 +19,3 @@
         android:directionPriority="row"
         android:direction="right_to_left|bottom_to_top"
         android:animation="@anim/fade" />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/layout_grid_inverse_fade.xml -->

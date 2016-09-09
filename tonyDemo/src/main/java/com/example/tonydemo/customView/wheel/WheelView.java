@@ -17,8 +17,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.tonydemo.LogUtils;
 import com.example.tonydemo.R;
+import com.example.tonydemo.util.LogUtils;
 
 import java.util.ArrayList;
 
@@ -45,6 +45,10 @@ public class WheelView extends View {
      * 选中时字偏移
      */
     private float offset = 20;
+    /**
+     * 是否循环显示内容
+     */
+    private boolean isLoop = false;
     /**
      * 选择的内容
      */
@@ -138,6 +142,10 @@ public class WheelView extends View {
      * 正在修改数据，避免ConcurrentModificationException异常
      */
     private boolean isClearing = false;
+    /**
+     * 当前选中item的id
+     */
+    private int mCurrentId = 0;
 
     public WheelView(Context context, AttributeSet attrs,
                      int defStyle) {
@@ -159,7 +167,6 @@ public class WheelView extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-
         if (!isEnable)
             return true;
         int y = (int) event.getY();
@@ -216,6 +223,7 @@ public class WheelView extends View {
                 itemObject.drawSelf(canvas, getMeasuredWidth());
             }
         } catch (Exception e) {
+            LogUtils.e(TAG, "%s", e.getMessage());
         }
 
     }
@@ -557,6 +565,7 @@ public class WheelView extends View {
         noEmpty = attribute.getBoolean(R.styleable.WheelView_noEmpty, true);
         isEnable = attribute
                 .getBoolean(R.styleable.WheelView_isEnable, true);
+        isLoop = attribute.getBoolean(R.styleable.WheelView_isLoop, false);
         attribute.recycle();
 
         controlHeight = itemNumber * unitHeight;
@@ -767,6 +776,7 @@ public class WheelView extends View {
 
             // 判断是否被选择
             if (isSelected()) {
+                mCurrentId = id;
                 textPaint.setColor(selectedColor);
                 // 获取距离标准位置的距离
                 float moveToSelect = moveToSelected();

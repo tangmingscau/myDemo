@@ -32,4 +32,3 @@
         android:text="@string/notify_with_text_long_notify_text" />
 
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/notify_with_text.xml -->

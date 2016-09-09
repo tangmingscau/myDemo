@@ -26,4 +26,3 @@
         android:actionProviderClass="com.example.android.apis.app.ActionBarSettingsActionProviderActivity$SettingsActionProvider"/>
 
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/action_bar_settings_action_provider.xml -->

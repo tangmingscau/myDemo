@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ViewAnimator;
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 import com.example.tonydemo.R;
 
 /**

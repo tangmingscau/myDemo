@@ -21,4 +21,3 @@
         android:orderInCategory="1"
         android:actionProviderClass="android.app.MediaRouteActionProvider"/>
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/presentation_with_media_router_menu.xml -->

@@ -18,4 +18,3 @@
     <item android:drawable="@drawable/hover_background_active" android:state_hovered="true" />
     <item android:drawable="@drawable/hover_background_inactive" />
 </selector>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/drawable/hover_background.xml -->

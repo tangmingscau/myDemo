@@ -18,4 +18,3 @@
         android:delay="10%"
         android:animationOrder="reverse"
         android:animation="@anim/slide_right" />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/layout_animation_row_right_slide.xml -->

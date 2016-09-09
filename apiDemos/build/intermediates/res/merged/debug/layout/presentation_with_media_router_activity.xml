@@ -44,4 +44,3 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/presentation_with_media_router_activity.xml -->

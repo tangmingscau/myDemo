@@ -19,15 +19,13 @@ package com.example.tonydemo.customView.recycleViewDemo.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 import com.example.tonydemo.R;
 
 import java.util.ArrayList;

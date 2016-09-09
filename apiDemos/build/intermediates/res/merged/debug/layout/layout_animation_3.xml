@@ -19,4 +19,3 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layoutAnimation="@anim/layout_bottom_to_top_slide" />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/layout_animation_3.xml -->

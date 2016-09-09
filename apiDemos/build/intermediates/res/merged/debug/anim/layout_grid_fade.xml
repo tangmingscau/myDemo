@@ -18,4 +18,3 @@
         android:rowDelay="50%"
         android:directionPriority="column"
         android:animation="@anim/fade" />
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/anim/layout_grid_fade.xml -->

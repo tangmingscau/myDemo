@@ -58,4 +58,3 @@
             android:text="@string/alert_dialog_two_buttons_holo_light"/>
     </LinearLayout>
 </ScrollView>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/alert_dialog.xml -->

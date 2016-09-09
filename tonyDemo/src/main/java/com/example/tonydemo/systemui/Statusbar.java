@@ -3,7 +3,7 @@ package com.example.tonydemo.systemui;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 
 /**
  * Created by tony on 16-3-19.

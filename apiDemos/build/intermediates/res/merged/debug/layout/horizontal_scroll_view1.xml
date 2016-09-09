@@ -24,4 +24,3 @@
         android:layout_height="wrap_content"
         android:text="@string/scrollbar_3_text" />
 </HorizontalScrollView>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/horizontal_scroll_view1.xml -->

@@ -19,4 +19,3 @@
             android:dashWidth="1dp" android:dashGap="2dp" />
     <size android:height="5dp" />
 </shape>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/drawable/line.xml -->

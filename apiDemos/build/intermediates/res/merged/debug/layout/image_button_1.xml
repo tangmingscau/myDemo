@@ -34,4 +34,3 @@
     	android:layout_height="wrap_content"
     	android:src="@android:drawable/sym_action_email" />	
 </LinearLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/image_button_1.xml -->

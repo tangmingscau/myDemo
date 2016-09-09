@@ -48,4 +48,3 @@
         android:textColor="#383"
         android:text="@string/secure_view_overlay_button3"/>
 </com.example.android.apis.view.SecureViewOverlay>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/secure_view_overlay.xml -->

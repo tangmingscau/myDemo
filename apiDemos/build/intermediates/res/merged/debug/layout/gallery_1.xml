@@ -29,4 +29,4 @@ android:layout_height="wrap_content"
  android:id="@+id/EditText01"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"></EditText>
-</LinearLayout><!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/gallery_1.xml -->
+</LinearLayout>

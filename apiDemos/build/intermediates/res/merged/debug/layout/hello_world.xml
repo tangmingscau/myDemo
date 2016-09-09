@@ -24,4 +24,3 @@
     android:gravity="center_vertical|center_horizontal"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:text="@string/hello_world"/>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/hello_world.xml -->

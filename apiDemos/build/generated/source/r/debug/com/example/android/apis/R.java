@@ -382,7 +382,7 @@ containing a value of this type.
         public static final int drag_explanation=0x7f0f0084;
         public static final int drag_result_text=0x7f0f0089;
         public static final int drag_text=0x7f0f008a;
-        public static final int drop=0x7f0f0005;
+        public static final int drop=0x7f0f0004;
         public static final int e_item=0x7f0f0208;
         public static final int edit=0x7f0f004e;
         public static final int edit2=0x7f0f004f;
@@ -525,7 +525,7 @@ containing a value of this type.
         public static final int menu_print=0x7f0f0202;
         public static final int message=0x7f0f00c1;
         public static final int metricsText=0x7f0f01a2;
-        public static final int middle=0x7f0f0000;
+        public static final int middle=0x7f0f0002;
         public static final int middle_least_item=0x7f0f01d4;
         public static final int middle_most_item=0x7f0f01d0;
         public static final int modeFullscreen=0x7f0f0195;
@@ -553,7 +553,7 @@ containing a value of this type.
         public static final int noncheckable_item_1=0x7f0f01d7;
         public static final int noncheckable_item_2=0x7f0f01d8;
         public static final int noncheckable_item_3=0x7f0f01d9;
-        public static final int none=0x7f0f0003;
+        public static final int none=0x7f0f0005;
         public static final int nongroup_checkable_item_1=0x7f0f01e2;
         public static final int nongroup_checkable_item_2=0x7f0f01e3;
         public static final int nongroup_checkable_item_3=0x7f0f01e4;
@@ -585,9 +585,6 @@ containing a value of this type.
         public static final int progress=0x7f0f0172;
         public static final int progress_button=0x7f0f002b;
         public static final int progress_horizontal=0x7f0f00b0;
-        public static final int progress_large=0x01010001;
-        public static final int progress_small=0x01010002;
-        public static final int progress_small_title=0x01010003;
         public static final int pw=0x7f0f0036;
         public static final int radio1=0x7f0f0070;
         public static final int radio2=0x7f0f0071;
@@ -596,7 +593,6 @@ containing a value of this type.
         public static final int rating=0x7f0f0132;
         public static final int ratingbar1=0x7f0f0130;
         public static final int ratingbar2=0x7f0f0131;
-        public static final int realtabcontent=0x01010000;
         public static final int recreate=0x7f0f0020;
         public static final int redo=0x7f0f01aa;
         public static final int refresh=0x7f0f01f5;
@@ -616,7 +612,7 @@ containing a value of this type.
         public static final int restart=0x7f0f00b1;
         public static final int results=0x7f0f0135;
         public static final int reverseButton=0x7f0f003d;
-        public static final int right=0x7f0f0002;
+        public static final int right=0x7f0f0003;
         public static final int rightButton=0x7f0f0094;
         public static final int right_text=0x7f0f007b;
         public static final int right_text_button=0x7f0f0079;
@@ -683,7 +679,7 @@ containing a value of this type.
         public static final int sms_recipient=0x7f0f0179;
         public static final int sms_send_message=0x7f0f017b;
         public static final int sms_status=0x7f0f017c;
-        public static final int snack=0x7f0f0006;
+        public static final int snack=0x7f0f0000;
         public static final int spinner=0x7f0f0039;
         public static final int spinner1=0x7f0f0075;
         public static final int spinner2=0x7f0f017e;
@@ -731,7 +727,7 @@ containing a value of this type.
         public static final int text4=0x7f0f00fe;
         public static final int text_entry_button=0x7f0f002f;
         public static final int third_item=0x7f0f01fd;
-        public static final int thumbnail=0x7f0f0004;
+        public static final int thumbnail=0x7f0f0006;
         public static final int timePicker=0x7f0f0080;
         public static final int title=0x7f0f006b;
         public static final int titles=0x7f0f00ac;

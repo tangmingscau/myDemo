@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.tonydemo"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.tonydemo">
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -32,93 +33,104 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <uses-feature
+            android:name="android.hardware.bluetooth_le"
+            android:required="true"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
 
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true">
-        <meta-data android:name="indoormap3d_key" android:value="65f057b9d5a807646c906738a6a0b727"/>
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:name=".MyApplication"
+            android:label="@string/app_name"
+            android:supportsRtl="true">
+        <meta-data
+                android:name="indoormap3d_key"
+                android:value="65f057b9d5a807646c906738a6a0b727"/>
 
-        <activity android:name=".map.indoor.IndoorMainActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay"
-        >
+        <activity
+                android:name=".map.indoor.IndoorMainActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <action android:name="android.intent.action.VIEW"></action>
             <category android:name="android.intent.category.DEFAULT"></category>
         </activity>
         <activity
-            android:name=".map.indoor.OnlineActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:label="@string/app_name"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait">
-        </activity>
+                android:name=".map.indoor.OnlineActivity"
+                android:configChanges="keyboardHidden|orientation"
+                android:label="@string/app_name"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"></activity>
 
 
-        <activity android:name=".MainActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay"
-        >
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"></action>
                 <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.switchViewDemo.LibActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.switchViewDemo.LibActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.recycleViewDemo.RecycleViewMainActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.recycleViewDemo.RecycleViewMainActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.recycleViewDemo.ui.AnimationGridActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.recycleViewDemo.ui.AnimationGridActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.recycleViewDemo.ui.AnimationListActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.recycleViewDemo.ui.AnimationListActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.recycleViewDemo.ui.GridActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.recycleViewDemo.ui.GridActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.recycleViewDemo.ui.ListActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay">
+        <activity
+                android:name=".customView.recycleViewDemo.ui.ListActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.floatButton.FloatWindowTest"
-                  android:theme="@style/DemoTheme.AppBarOverlay"
-        >
+        <activity
+                android:name=".customView.floatButton.FloatWindowTest"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
-        <activity android:name=".customView.floatButton.FloatActivity"
-                  android:theme="@style/DemoTheme.AppBarOverlay"
-        >
+        <activity
+                android:name=".customView.floatButton.FloatActivity"
+                android:theme="@style/DemoTheme.AppBarOverlay">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
@@ -148,6 +160,43 @@
                 <category android:name="android.intent.category.DEFAULT"></category>
             </intent-filter>
         </activity>
+        <activity android:name=".http.AirActivtity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".customView.mySeekbar.ChargeSeekbarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".customView.pickview.PickViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".face.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".face.broadcast.FaceBroadcast">
+            <intent-filter>
+                <action android:name="com.example.tonydemo.START_FACE"></action>
+                <action android:name="com.example.tonydemo.STOP_FACE"></action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".face.FaceService">
+            <intent-filter >
+                <action android:name="com.example.tonydemo.service.START_FACE"></action>
+            </intent-filter>
+        </service>
         <service android:name=".customView.floatButton.FloatService"></service>
     </application>
 

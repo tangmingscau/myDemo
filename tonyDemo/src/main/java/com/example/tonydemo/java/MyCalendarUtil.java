@@ -1,7 +1,7 @@
 package com.example.tonydemo.java;
 
 
-import com.example.tonydemo.LogUtils;
+import com.example.tonydemo.util.LogUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

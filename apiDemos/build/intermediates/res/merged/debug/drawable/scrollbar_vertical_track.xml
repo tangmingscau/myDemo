@@ -19,4 +19,3 @@
             android:angle="0"/>
     <corners android:radius="0dp" />
 </shape>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/drawable/scrollbar_vertical_track.xml -->

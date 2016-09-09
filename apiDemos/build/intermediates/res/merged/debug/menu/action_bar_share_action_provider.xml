@@ -26,4 +26,3 @@
         android:actionProviderClass="android.widget.ShareActionProvider" />
 
 </menu>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/menu/action_bar_share_action_provider.xml -->

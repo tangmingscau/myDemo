@@ -40,12 +40,7 @@
             android:layout_height="0dp"
             android:layout_weight="0"/>
 
-        <FrameLayout
-            android:id="@+android:id/realtabcontent"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+
 
     </LinearLayout>
 </TabHost>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/fragment_tabs_fragment.xml -->

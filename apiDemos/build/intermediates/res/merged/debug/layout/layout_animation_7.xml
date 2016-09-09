@@ -55,4 +55,3 @@
         <EditText android:lines="3" />
     </TableRow>
 </TableLayout>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/layout_animation_7.xml -->

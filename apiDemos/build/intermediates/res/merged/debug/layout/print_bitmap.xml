@@ -21,4 +21,3 @@
         android:src="@raw/android_logo"
         android:contentDescription="@string/android_logo">
 </ImageView>
-<!-- From: file:/home/tony/code/myDemo/apiDemos/src/main/res/layout/print_bitmap.xml -->

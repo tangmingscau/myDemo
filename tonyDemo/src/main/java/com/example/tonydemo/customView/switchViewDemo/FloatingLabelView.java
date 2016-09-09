@@ -112,8 +112,8 @@ public class FloatingLabelView extends LinearLayout implements
 		input.setTextColor(Color.BLACK);
 
         Context context = getContext();
-		input.setTextAppearance(context, android.R.attr.textAppearanceMedium);
-		display.setTextAppearance(context, android.R.attr.textAppearanceSmall);
+//		input.setTextAppearance(context, android.R.attr.textAppearanceMedium);
+//		display.setTextAppearance(context, android.R.attr.textAppearanceSmall);
 
 		display.setPadding(5, 2, 5, 2);
 	}
