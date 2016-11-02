@@ -55,7 +55,7 @@
         android:required="false" />
 
     <instrumentation
-        android:name="com.example.android.apis.app.LocalSampleInstrumentation"
+        android:name=".app.LocalSampleInstrumentation"
         android:label="Local Sample"
         android:targetPackage="com.example.android.apis" />
 

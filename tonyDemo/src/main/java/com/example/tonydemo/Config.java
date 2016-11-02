@@ -35,4 +35,10 @@ public class Config {
     public static final String ACTION_BROADCAST_STOP_FACE = "com.example.tonydemo.STOP_FACE";
     public static final String ACTION_SERVICE_START_FACE="com.example.tonydemo.service.START_FACE";
 
+    public static final String ACTION_BROADCAST_INSERT_CUSTOMER1="com.example.tonydemo.insert_customer1";
+    public static final String ACTION_BROADCAST_DELETE_CUSTOMER1="com.example.tonydemo.delete_customer1";
+    public static final String ACTION_BROADCAST_INSERT_ORDER1="com.example.tonydemo.insert_order1";
+    public static final String ACTION_BROADCAST_DELETE_ORDER1="com.example.tonydemo.delete_order1";
+    public static final String ACTION_BROADCAST_INSERT_ORDER2="com.example.tonydemo.insert_order2";
+    public static final String ACTION_BROADCAST_UPDATE_ORDER2="com.example.tonydemo.update_order2";
 }

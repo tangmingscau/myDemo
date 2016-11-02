@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import com.example.tonydemo.customView.circleWave.CustomCircleActivity;
 import com.example.tonydemo.customView.floatButton.FloatActivity;
 import com.example.tonydemo.customView.floatButton.FloatWindowTest;
 import com.example.tonydemo.customView.keyboard.KeyboardActivity;
@@ -22,6 +22,7 @@ import com.example.tonydemo.face.CameraActivity;
 import com.example.tonydemo.http.AirActivtity;
 import com.example.tonydemo.java.MyCalendarUtil;
 import com.example.tonydemo.map.indoor.IndoorMainActivity;
+import com.example.tonydemo.util.LogUtil;
 import com.example.tonydemo.util.LogUtils;
 
 public class MainActivity extends Activity {
@@ -33,8 +34,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         init();
+
     }
 
     private void init() {
@@ -68,12 +69,19 @@ public class MainActivity extends Activity {
         myPickView.setOnClickListener(myclick);
         TextView myFace= (TextView) findViewById(R.id.myFace);
         myFace.setOnClickListener(myclick);
+        TextView myWave= (TextView) findViewById(R.id.myWave);
+        myWave.setOnClickListener(myclick);
         LogUtils.i(TAG, "dpi=%d", getResources().getDisplayMetrics().densityDpi);
         MyCalendarUtil.getMonthDay("2016-05-05");
         MyCalendarUtil.getMonthDay("2016-12-05");
         MyCalendarUtil.getMonthDay("2016-12-15");
         String s = getApplicationContext().getResources().getString(R.string.charge_max, 10);
         LogUtils.i(TAG, "s=%s", s);
+        String selection="id = ? and s = ?";
+        String[] whereKey=selection.split("\\?");
+        for (String s1:whereKey){
+            LogUtil.i(TAG,s1);
+        }
     }
 
     View.OnClickListener myclick = new View.OnClickListener() {
@@ -144,6 +152,10 @@ public class MainActivity extends Activity {
                     break;
                 case R.id.myFace:
                     intent = new Intent(MainActivity.this, CameraActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.myWave:
+                    intent=new Intent(MainActivity.this, CustomCircleActivity.class);
                     startActivity(intent);
                     break;
             }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" filepath="$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/myDemo.iml" filepath="$PROJECT_DIR$/myDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tonyDemo/tonyDemo.iml" filepath="$PROJECT_DIR$/tonyDemo/tonyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/volleyDemo/volleyDemo.iml" filepath="$PROJECT_DIR$/volleyDemo/volleyDemo.iml" />

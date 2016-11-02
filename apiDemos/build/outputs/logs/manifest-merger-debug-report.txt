@@ -2743,7 +2743,7 @@ ADDED from /home/tony/code/myDemo/apiDemos/src/main/AndroidManifest.xml:3002:9-3
 		ADDED from /home/tony/code/myDemo/apiDemos/src/main/AndroidManifest.xml:3003:13-52
 	android:name
 		ADDED from /home/tony/code/myDemo/apiDemos/src/main/AndroidManifest.xml:3002:19-57
-instrumentation#com.example.android.apis.app.LocalSampleInstrumentation
+instrumentation
 ADDED from /home/tony/code/myDemo/apiDemos/src/main/AndroidManifest.xml:3011:5-3013:40
 	android:label
 		ADDED from /home/tony/code/myDemo/apiDemos/src/main/AndroidManifest.xml:3013:9-37

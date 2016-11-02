@@ -1,2 +1,2 @@
-include ':apiDemos', ':tonyDemo'
+include ':apiDemos', ':tonyDemo', ':greendaogenerator'
 include ':volleyDemo'

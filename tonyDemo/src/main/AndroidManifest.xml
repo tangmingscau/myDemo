@@ -185,6 +185,13 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".customView.circleWave.CustomCircleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
         <receiver android:name=".face.broadcast.FaceBroadcast">
             <intent-filter>
                 <action android:name="com.example.tonydemo.START_FACE"></action>
@@ -193,10 +200,20 @@
         </receiver>
 
         <service android:name=".face.FaceService">
-            <intent-filter >
+            <intent-filter>
                 <action android:name="com.example.tonydemo.service.START_FACE"></action>
             </intent-filter>
         </service>
+        <receiver android:name=".greendao.GreendaoBroadcast">
+            <intent-filter>
+                <action android:name="com.example.tonydemo.insert_customer1"></action>
+                <action android:name="com.example.tonydemo.delete_customer1"></action>
+                <action android:name="com.example.tonydemo.insert_order1"></action>
+                <action android:name="com.example.tonydemo.delete_order1"></action>
+                <action android:name="com.example.tonydemo.insert_order2"></action>
+                <action android:name="com.example.tonydemo.update_order2"></action>
+            </intent-filter>
+        </receiver>
         <service android:name=".customView.floatButton.FloatService"></service>
     </application>
 
